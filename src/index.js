@@ -324,9 +324,9 @@ module.exports = function(schema, option) {
         break;
       default:
         if (schema.children && schema.children.length) {
-          xml = `<${type}${props}>${transform(schema.children)}</${type}>`;
+          xml = `<${type}${classString}${props}>${transform(schema.children)}</${type}>`;
         } else {
-          xml = `<${type}${props} />`;
+          xml = `<${type}${classString}${props} />`;
         }
     }
 
