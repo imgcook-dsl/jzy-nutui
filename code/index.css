@@ -1,0 +1,399 @@
+.mod {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 414px;
+  height: 931px;
+}
+
+.hd {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 414px;
+  height: 22px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 134px;
+  width: 35px;
+  height: 11px;
+}
+
+.icon {
+  margin-right: 3px;
+  width: 17px;
+  height: 11px;
+}
+
+.icon_2 {
+  width: 15px;
+  height: 11px;
+}
+
+.txt {
+  opacity: 1;
+  margin-right: 143px;
+  max-width: 186px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px;
+  white-space: pre;
+  color: #22242a;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 24px;
+  height: 11px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgba(34, 36, 42, 0.35);
+  width: 22px;
+  height: 11px;
+}
+
+.color {
+  border-radius: 1px;
+  background-color: #22242a;
+  width: 18px;
+  height: 7px;
+}
+
+.dot {
+  width: 1px;
+  height: 4px;
+}
+
+.bd {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 414px;
+  height: 43px;
+}
+
+.group_2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 135px;
+  background-color: rgba(255, 255, 255, 0.04);
+  width: 20px;
+  height: 20px;
+}
+
+.img {
+  width: 7px;
+  height: 13px;
+}
+
+.word {
+  opacity: 1;
+  margin-right: 137px;
+  max-width: 195px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px;
+  white-space: nowrap;
+  color: #22242a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icon_3 {
+  width: 17px;
+  height: 3px;
+}
+
+.main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  width: 414px;
+  height: 232px;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 414px;
+  height: 232px;
+}
+
+.block_3 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(34, 36, 42, 0.5);
+  width: 414px;
+  height: 232px;
+}
+
+.largeIcon {
+  position: relative;
+  align-self: flex-end;
+  margin-top: 11px;
+  width: 51px;
+  height: 38px;
+}
+
+.block_2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 63px;
+  margin-left: 40px;
+  height: 88px;
+}
+
+.avator {
+  margin-right: 18px;
+  width: 88px;
+  height: 88px;
+}
+
+.outer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 88px;
+}
+
+.info {
+  position: relative;
+  opacity: 1;
+  line-height: 28px;
+  letter-spacing: 0.24px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.word_2 {
+  position: relative;
+  opacity: 1;
+  margin-top: 2px;
+  line-height: 17px;
+  letter-spacing: 0.24px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.tagWrap {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 13px;
+  border-radius: 14px;
+  background-color: #d2977f;
+  width: 80px;
+  height: 28px;
+}
+
+.tag {
+  opacity: 1;
+  max-width: 68px;
+  height: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 17px;
+  letter-spacing: 0.14px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.submain {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 361px;
+  height: 22px;
+}
+
+.empty {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  opacity: 1;
+  width: 29px;
+  height: 20px;
+}
+
+.div {
+  position: relative;
+  margin-right: 139px;
+  width: 29px;
+  height: 20px;
+}
+
+.empty_2 {
+  position: relative;
+  opacity: 1;
+  width: 29px;
+  height: 20px;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(244, 225, 213, 1);
+  background-color: #ffffff;
+  padding-right: 11px;
+  padding-left: 16px;
+  width: 374px;
+  height: 60px;
+}
+
+.group_3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
+}
+
+.icon_4 {
+  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon_5 {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.brianRodriguez {
+  opacity: 1;
+  max-width: 153px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px;
+  letter-spacing: 0.19px;
+  white-space: pre;
+  color: #22242a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price {
+  opacity: 1;
+  line-height: 19px;
+  letter-spacing: 0.19px;
+  white-space: nowrap;
+  color: #22242a;
+  font-family: DINAlternate-Bold, DIN Alternate;
+  font-size: 16px;
+  font-weight: NaN;
+}
+
+.ft {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 22px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(244, 225, 213, 1);
+  background-color: #ffffff;
+  padding-right: 11px;
+  padding-left: 16px;
+  width: 374px;
+  height: 60px;
+}
+
+.block_4 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
+}
+
+.icon_6 {
+  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon_7 {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.brianRodriguez_2 {
+  opacity: 1;
+  max-width: 153px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px;
+  letter-spacing: 0.19px;
+  white-space: pre;
+  color: #22242a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.money {
+  opacity: 1;
+  line-height: 19px;
+  letter-spacing: 0.19px;
+  white-space: nowrap;
+  color: #22242a;
+  font-family: DINAlternate-Bold, DIN Alternate;
+  font-size: 16px;
+  font-weight: NaN;
+}
