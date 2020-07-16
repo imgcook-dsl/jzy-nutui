@@ -171,7 +171,7 @@ module.exports = function(schema, option) {
     } else {
       return `:${key}`;
     }
-  }
+  } 
 
   // parse async dataSource
   const parseDataSource = (data) => {

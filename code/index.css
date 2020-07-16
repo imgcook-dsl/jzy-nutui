@@ -152,12 +152,14 @@
 
 .block_3 {
   display: flex;
-  position: relative;
-  align-items: flex-start;
   flex-direction: column;
-  background-color: rgba(34, 36, 42, 0.5);
+  align-items: flex-start;
   width: 414px;
   height: 232px;
+  position: relative;
+  background-color: rgba(34, 36, 42, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .largeIcon {
@@ -243,12 +245,13 @@
 
 .submain {
   display: flex;
-  position: relative;
-  align-items: center;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   width: 361px;
   height: 22px;
+  position: relative;
 }
 
 .empty {

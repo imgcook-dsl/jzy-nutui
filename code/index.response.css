@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 55.2vw;
-  height: 124.13vw;
+  width: 100vw;
+  height: 224.88vw;
 }
 
 .hd {
@@ -13,8 +13,8 @@
   flex-direction: row;
   justify-content: center;
   background-color: #ffffff;
-  width: 55.2vw;
-  height: 2.93vw;
+  width: 100vw;
+  height: 5.31vw;
 }
 
 .group {
@@ -22,33 +22,33 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-right: 17.87vw;
-  width: 4.67vw;
-  height: 1.47vw;
+  margin-right: 32.37vw;
+  width: 8.45vw;
+  height: 2.66vw;
 }
 
 .icon {
-  margin-right: 0.4vw;
-  width: 2.27vw;
-  height: 1.47vw;
+  margin-right: 0.72vw;
+  width: 4.11vw;
+  height: 2.66vw;
 }
 
 .icon_2 {
-  width: 2vw;
-  height: 1.47vw;
+  width: 3.62vw;
+  height: 2.66vw;
 }
 
 .txt {
   opacity: 1;
-  margin-right: 19.07vw;
-  max-width: 24.8vw;
-  height: 2.93vw;
+  margin-right: 34.54vw;
+  max-width: 44.93vw;
+  height: 5.31vw;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 2.93vw;
+  line-height: 5.31vw;
   white-space: pre;
   color: #22242a;
-  font-size: 1.73vw;
+  font-size: 3.14vw;
   font-weight: 400;
 }
 
@@ -57,8 +57,8 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  width: 3.2vw;
-  height: 1.47vw;
+  width: 5.8vw;
+  height: 2.66vw;
 }
 
 .container {
@@ -66,25 +66,25 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-right: 0.13vw;
+  margin-right: 0.24vw;
   border-width: 1px;
   border-style: solid;
-  border-radius: 0.27vw;
+  border-radius: 0.48vw;
   border-color: rgba(34, 36, 42, 0.35);
-  width: 2.93vw;
-  height: 1.47vw;
+  width: 5.31vw;
+  height: 2.66vw;
 }
 
 .color {
-  border-radius: 0.13vw;
+  border-radius: 0.24vw;
   background-color: #22242a;
-  width: 2.4vw;
-  height: 0.93vw;
+  width: 4.35vw;
+  height: 1.69vw;
 }
 
 .dot {
-  width: 0.13vw;
-  height: 0.53vw;
+  width: 0.24vw;
+  height: 0.97vw;
 }
 
 .bd {
@@ -94,8 +94,8 @@
   flex-direction: row;
   justify-content: center;
   background-color: #ffffff;
-  width: 55.2vw;
-  height: 5.73vw;
+  width: 100vw;
+  height: 10.39vw;
 }
 
 .group_2 {
@@ -103,34 +103,34 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-right: 18vw;
+  margin-right: 32.61vw;
   background-color: rgba(255, 255, 255, 0.04);
-  width: 2.67vw;
-  height: 2.67vw;
+  width: 4.83vw;
+  height: 4.83vw;
 }
 
 .img {
-  width: 0.93vw;
-  height: 1.73vw;
+  width: 1.69vw;
+  height: 3.14vw;
 }
 
 .word {
   opacity: 1;
-  margin-right: 18.27vw;
-  max-width: 26vw;
-  height: 2.93vw;
+  margin-right: 33.09vw;
+  max-width: 47.1vw;
+  height: 5.31vw;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 2.93vw;
+  line-height: 5.31vw;
   white-space: nowrap;
   color: #22242a;
-  font-size: 2.13vw;
+  font-size: 3.86vw;
   font-weight: 400;
 }
 
 .icon_3 {
-  width: 2.27vw;
-  height: 0.4vw;
+  width: 4.11vw;
+  height: 0.72vw;
 }
 
 .main {
@@ -138,34 +138,36 @@
   position: relative;
   align-items: center;
   flex-direction: row;
-  width: 55.2vw;
-  height: 30.93vw;
+  width: 100vw;
+  height: 56.04vw;
 }
 
 .layer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 55.2vw;
-  height: 30.93vw;
+  width: 100vw;
+  height: 56.04vw;
 }
 
 .block_3 {
   display: flex;
-  position: relative;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  height: 56.04vw;
+  position: relative;
   background-color: rgba(34, 36, 42, 0.5);
-  width: 55.2vw;
-  height: 30.93vw;
+  border-bottom-left-radius: 2.42vw;
+  border-bottom-right-radius: 2.42vw;
 }
 
 .largeIcon {
   position: relative;
   align-self: flex-end;
-  margin-top: 1.47vw;
-  width: 6.8vw;
-  height: 5.07vw;
+  margin-top: 2.66vw;
+  width: 12.32vw;
+  height: 9.18vw;
 }
 
 .block_2 {
@@ -173,44 +175,44 @@
   position: relative;
   align-items: center;
   flex-direction: row;
-  margin-top: 8.4vw;
-  margin-left: 5.33vw;
-  height: 11.73vw;
+  margin-top: 15.22vw;
+  margin-left: 9.66vw;
+  height: 21.26vw;
 }
 
 .avator {
-  margin-right: 2.4vw;
-  width: 11.73vw;
-  height: 11.73vw;
+  margin-right: 4.35vw;
+  width: 21.26vw;
+  height: 21.26vw;
 }
 
 .outer {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  height: 11.73vw;
+  height: 21.26vw;
 }
 
 .info {
   position: relative;
   opacity: 1;
-  line-height: 3.73vw;
+  line-height: 6.76vw;
   letter-spacing: 0.24px;
   white-space: nowrap;
   color: #ffffff;
-  font-size: 2.67vw;
+  font-size: 4.83vw;
   font-weight: 500;
 }
 
 .word_2 {
   position: relative;
   opacity: 1;
-  margin-top: 0.27vw;
-  line-height: 2.27vw;
+  margin-top: 0.48vw;
+  line-height: 4.11vw;
   letter-spacing: 0.24px;
   white-space: nowrap;
   color: #ffffff;
-  font-size: 1.6vw;
+  font-size: 2.9vw;
   font-weight: 400;
 }
 
@@ -220,58 +222,59 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1.73vw;
-  border-radius: 1.87vw;
+  margin-top: 3.14vw;
+  border-radius: 3.38vw;
   background-color: #d2977f;
-  width: 10.67vw;
-  height: 3.73vw;
+  width: 19.32vw;
+  height: 6.76vw;
 }
 
 .tag {
   opacity: 1;
-  max-width: 9.07vw;
-  height: 2.27vw;
+  max-width: 16.43vw;
+  height: 4.11vw;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 2.27vw;
+  line-height: 4.11vw;
   letter-spacing: 0.14px;
   white-space: nowrap;
   color: #ffffff;
-  font-size: 1.6vw;
+  font-size: 2.9vw;
   font-weight: 400;
 }
 
 .submain {
   display: flex;
-  position: relative;
-  align-items: center;
   flex-direction: row;
-  margin-top: 2.67vw;
-  width: 48.13vw;
-  height: 2.93vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.83vw;
+  width: 87.2vw;
+  height: 5.31vw;
+  position: relative;
 }
 
 .empty {
   position: absolute;
   top: 0;
-  right: -0.13vw;
+  right: -0.24vw;
   opacity: 1;
-  width: 3.87vw;
-  height: 2.67vw;
+  width: 7vw;
+  height: 4.83vw;
 }
 
 .div {
   position: relative;
-  margin-right: 18.53vw;
-  width: 3.87vw;
-  height: 2.67vw;
+  margin-right: 33.57vw;
+  width: 7vw;
+  height: 4.83vw;
 }
 
 .empty_2 {
   position: relative;
   opacity: 1;
-  width: 3.87vw;
-  height: 2.67vw;
+  width: 7vw;
+  height: 4.83vw;
 }
 
 .row {
@@ -281,58 +284,58 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 4vw;
-  border-radius: 2.67vw;
+  margin-top: 7.25vw;
+  border-radius: 4.83vw;
   box-shadow: 0px 10px 30px rgba(244, 225, 213, 1);
   background-color: #ffffff;
-  padding-right: 1.47vw;
-  padding-left: 2.13vw;
-  width: 49.87vw;
-  height: 8vw;
+  padding-right: 2.66vw;
+  padding-left: 3.86vw;
+  width: 90.34vw;
+  height: 14.49vw;
 }
 
 .group_3 {
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 5.33vw;
+  height: 9.66vw;
 }
 
 .icon_4 {
-  margin-right: 0.8vw;
-  width: 4vw;
-  height: 4vw;
+  margin-right: 1.45vw;
+  width: 7.25vw;
+  height: 7.25vw;
 }
 
 .icon_5 {
-  margin-right: 1.33vw;
-  width: 5.33vw;
-  height: 5.33vw;
+  margin-right: 2.42vw;
+  width: 9.66vw;
+  height: 9.66vw;
   overflow: hidden;
 }
 
 .brianRodriguez {
   opacity: 1;
-  max-width: 20.4vw;
-  height: 2.93vw;
+  max-width: 36.96vw;
+  height: 5.31vw;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 2.93vw;
+  line-height: 5.31vw;
   letter-spacing: 0.19px;
   white-space: pre;
   color: #22242a;
-  font-size: 2.13vw;
+  font-size: 3.86vw;
   font-weight: 400;
 }
 
 .price {
   opacity: 1;
-  line-height: 2.53vw;
+  line-height: 4.59vw;
   letter-spacing: 0.19px;
   white-space: nowrap;
   color: #22242a;
   font-family: DINAlternate-Bold, DIN Alternate;
-  font-size: 2.13vw;
+  font-size: 3.86vw;
   font-weight: NaN;
 }
 
@@ -343,57 +346,57 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 2.93vw;
-  border-radius: 2.67vw;
+  margin-top: 5.31vw;
+  border-radius: 4.83vw;
   box-shadow: 0px 10px 30px rgba(244, 225, 213, 1);
   background-color: #ffffff;
-  padding-right: 1.47vw;
-  padding-left: 2.13vw;
-  width: 49.87vw;
-  height: 8vw;
+  padding-right: 2.66vw;
+  padding-left: 3.86vw;
+  width: 90.34vw;
+  height: 14.49vw;
 }
 
 .block_4 {
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 5.33vw;
+  height: 9.66vw;
 }
 
 .icon_6 {
-  margin-right: 0.8vw;
-  width: 4vw;
-  height: 4vw;
+  margin-right: 1.45vw;
+  width: 7.25vw;
+  height: 7.25vw;
 }
 
 .icon_7 {
-  margin-right: 1.33vw;
-  width: 5.33vw;
-  height: 5.33vw;
+  margin-right: 2.42vw;
+  width: 9.66vw;
+  height: 9.66vw;
   overflow: hidden;
 }
 
 .brianRodriguez_2 {
   opacity: 1;
-  max-width: 20.4vw;
-  height: 2.93vw;
+  max-width: 36.96vw;
+  height: 5.31vw;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 2.93vw;
+  line-height: 5.31vw;
   letter-spacing: 0.19px;
   white-space: pre;
   color: #22242a;
-  font-size: 2.13vw;
+  font-size: 3.86vw;
   font-weight: 400;
 }
 
 .money {
   opacity: 1;
-  line-height: 2.53vw;
+  line-height: 4.59vw;
   letter-spacing: 0.19px;
   white-space: nowrap;
   color: #22242a;
   font-family: DINAlternate-Bold, DIN Alternate;
-  font-size: 2.13vw;
+  font-size: 3.86vw;
   font-weight: NaN;
 }

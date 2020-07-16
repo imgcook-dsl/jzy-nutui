@@ -25,7 +25,7 @@ const nut = require('../src/index.js')
     prettier: prettier,
     _: _,
     responsive: {
-      width: 750,
+      width: 414,
       viewportWidth: 375
     },
     utils: {
