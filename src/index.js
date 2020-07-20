@@ -251,11 +251,29 @@ module.exports = function(schema, option) {
     return render;
   }
 
+  // delete other prop of nutui componnet
+  const SepialDeal4NutUi = (type, originStyle)=>{
+    if (type.indexOf("nut-tab") == 0){
+      var tempList = [];
+      for (prop in originStyle) {
+        if(prop != 'width' && prop != 'height' && prop.indexOf('margin-') != 0){
+          tempList.push(prop);
+        }
+      }
+
+      tempList.forEach(item=>{
+        delete originStyle[item];
+      })
+    }
+  }
+
   // generate render xml
   const generateRender = (schema) => {
     const type = schema.componentName.toLowerCase();
     const className = schema.props && schema.props.className;
     const classString = className ? ` class="${className}"` : '';
+
+    SepialDeal4NutUi(type, schema.props.style);
 
     if (className) {
       styles.push(`

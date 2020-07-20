@@ -27,7 +27,10 @@
           <div class="outer">
             <span class="info" :lines="1">莫尼卡·贝鲁奇</span>
             <span class="word_2" :lines="1">粉丝：98767868709</span>
-            <nut-button class="tagWrap"
+            <nut-button
+              class="tagWrap"
+              :shape="nut_button_1.shape"
+              :color="nut_button_1.color"
               ><span class="tag" :lines="1">已加入</span>
             </nut-button>
           </div>
@@ -36,18 +39,18 @@
     </div>
     <nut-tab
       class="submain"
-      :position-nav="nut_tab_1.position_nav"
-      :is-show-line="nut_tab_1.is_show_line"
+      :position-nav="nut_tab_2.position_nav"
+      :is-show-line="nut_tab_2.is_show_line"
       ><nut-tab-panel
         class="empty"
-        :lines="nut_tab_panel_2.lines"
-        :tab-title="nut_tab_panel_2.tab_title"/><nut-tab-panel
-        class="div"
         :lines="nut_tab_panel_3.lines"
         :tab-title="nut_tab_panel_3.tab_title"/><nut-tab-panel
-        class="empty_2"
+        class="div"
         :lines="nut_tab_panel_4.lines"
-        :tab-title="nut_tab_panel_4.tab_title"
+        :tab-title="nut_tab_panel_4.tab_title"/><nut-tab-panel
+        class="empty_2"
+        :lines="nut_tab_panel_5.lines"
+        :tab-title="nut_tab_panel_5.tab_title"
     /></nut-tab>
     <div class="row">
       <div class="group_3">
@@ -77,19 +80,23 @@ Button.install(Vue);
 export default {
   data() {
     return {
-      nut_tab_1: {
+      nut_button_1: {
+        shape: 'circle',
+        color: '#d2977f'
+      },
+      nut_tab_2: {
         position_nav: 'top',
         is_show_line: true
       },
-      nut_tab_panel_2: {
+      nut_tab_panel_3: {
         lines: 1,
         tab_title: '排行'
       },
-      nut_tab_panel_3: {
+      nut_tab_panel_4: {
         lines: 1,
         tab_title: '商品'
       },
-      nut_tab_panel_4: {
+      nut_tab_panel_5: {
         lines: 1,
         tab_title: '活动'
       },
