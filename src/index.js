@@ -51,6 +51,9 @@ module.exports = function(schema, option) {
 
   const _ratio = width / viewportWidth;
 
+  // for nut ui
+  var _nut_component_index = 0;
+
   const isExpression = (value) => {
     return /^\{\{.*\}\}$/.test(value);
   }
@@ -115,25 +118,6 @@ module.exports = function(schema, option) {
     };
   }
 
-  const parseNutProps = (value)=>{
-    let retValue = '';
-    switch (typeof value){
-      case 'string':
-        retValue = `"String('${value}')"`;
-        break;
-      case 'boolean':
-        retValue = `"Boolean(${value})"`;
-        break;
-      case 'number':
-        retValue = `"Number(${value})"`;
-        break;
-      default:
-        retValue = `"${value}"`;
-        break
-    }
-    return retValue;
-  }
-
   // parse layer props(static values or expression)
   const parseProps = (value, isReactNode, constantName) => {
     if (typeof value === 'string') {
@@ -161,7 +145,7 @@ module.exports = function(schema, option) {
       methods.push(`${name}_${expressionName[name]}(${params}) {${content}}`);
       return `${name}_${expressionName[name]}`;
     } else {
-      return `"${value}"`;
+      return `${value}`;
     }
   }
 
@@ -289,15 +273,35 @@ module.exports = function(schema, option) {
     let xml;
     let props = '';
 
+    
+    var nutVars = new Map();
+    var componentDataRoot = '';
     Object.keys(schema.props).forEach((key) => {
       if (['className', 'style', 'text', 'src'].indexOf(key) === -1) {
-        if (type.indexOf("nut-") == 0){
-          props += ` ${parsePropsKey(key, schema.props[key])}=${parseNutProps(schema.props[key])}`;
+        var propName = `${parsePropsKey(key, schema.props[key])}`;
+        if (type.indexOf("nut-") == 0){          
+          if (nutVars.size == 0){
+            componentDataRoot = `${type}_${++_nut_component_index}`.replace(/-/g,'_');   
+          }
+
+          var varName = `${propName.substr(1, propName.length)}`.replace(/-/g,'_');
+          nutVars.set(varName, parseProps(schema.props[key]));
+          props += ` ${propName}="${componentDataRoot}.${varName}"`;
         }else{
-          props += ` ${parsePropsKey(key, schema.props[key])}=${parseProps(schema.props[key])}`;
-        }      
+          props += ` ${propName}=${parseProps(schema.props[key])}`; 
+        }           
       }
-    })
+    });
+
+    if (nutVars.size > 0){   
+      var componentDataValue = "";
+      nutVars.forEach(function(value,key){
+        componentDataValue = `${componentDataValue}${key}: ${value},\n`;
+      });
+
+      datas.push(`${componentDataRoot}: {\n ${componentDataValue}\n}`);
+    }
+
     switch(type) {
       case 'text':
         const innerText = parseProps(schema.props.text, true);
@@ -452,7 +456,18 @@ module.exports = function(schema, option) {
               ${lifeCycles.join(',\n')}
             }
           </script>
-          <style src="./index.response.css" />
+          <style scoped>
+            @import "./index.response.css";
+            /* 如下给出两个覆盖样式的示例，实际根据自己需求来*/
+            /deep/.nut-tab{
+              border:0!important;
+              padding:0!important;
+              background:#FF000000!important;
+            }
+            /deep/.nut-button{
+              background:linear-gradient(315deg,#d2977f,#d2977f)!important;
+            }
+          </style>
         `, prettierOpt),
         panelType: 'vue',
       },

@@ -244,35 +244,21 @@
 }
 
 .submain {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 4.83vw;
   width: 87.2vw;
   height: 5.31vw;
-  position: relative;
 }
 
 .empty {
-  position: absolute;
-  top: 0;
-  right: -0.24vw;
-  opacity: 1;
   width: 7vw;
   height: 4.83vw;
 }
 
 .div {
-  position: relative;
-  margin-right: 33.57vw;
   width: 7vw;
   height: 4.83vw;
 }
 
 .empty_2 {
-  position: relative;
-  opacity: 1;
   width: 7vw;
   height: 4.83vw;
 }

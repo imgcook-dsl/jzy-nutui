@@ -27,10 +27,7 @@
           <div class="outer">
             <span class="info" :lines="1">莫尼卡·贝鲁奇</span>
             <span class="word_2" :lines="1">粉丝：98767868709</span>
-            <nut-button
-              class="tagWrap"
-              :shape="String('circle')"
-              :color="String('#d2977f')"
+            <nut-button class="tagWrap"
               ><span class="tag" :lines="1">已加入</span>
             </nut-button>
           </div>
@@ -39,18 +36,18 @@
     </div>
     <nut-tab
       class="submain"
-      :position-nav="String('top')"
-      :is-show-line="Boolean(true)"
+      :position-nav="nut_tab_1.position_nav"
+      :is-show-line="nut_tab_1.is_show_line"
       ><nut-tab-panel
         class="empty"
-        :lines="Number(1)"
-        :tab-title="String('排行')"/><nut-tab-panel
+        :lines="nut_tab_panel_2.lines"
+        :tab-title="nut_tab_panel_2.tab_title"/><nut-tab-panel
         class="div"
-        :lines="Number(1)"
-        :tab-title="String('商品')"/><nut-tab-panel
+        :lines="nut_tab_panel_3.lines"
+        :tab-title="nut_tab_panel_3.tab_title"/><nut-tab-panel
         class="empty_2"
-        :lines="Number(1)"
-        :tab-title="String('活动')"
+        :lines="nut_tab_panel_4.lines"
+        :tab-title="nut_tab_panel_4.tab_title"
     /></nut-tab>
     <div class="row">
       <div class="group_3">
@@ -80,10 +77,37 @@ Button.install(Vue);
 export default {
   data() {
     return {
+      nut_tab_1: {
+        position_nav: 'top',
+        is_show_line: true
+      },
+      nut_tab_panel_2: {
+        lines: 1,
+        tab_title: '排行'
+      },
+      nut_tab_panel_3: {
+        lines: 1,
+        tab_title: '商品'
+      },
+      nut_tab_panel_4: {
+        lines: 1,
+        tab_title: '活动'
+      },
       constants: {}
     };
   },
   methods: {}
 };
 </script>
-<style src="./index.response.css" />
+<style scoped>
+@import './index.response.css';
+/* 如下给出两个覆盖样式的示例，实际根据自己需求来*/
+/deep/.nut-tab {
+  border: 0 !important;
+  padding: 0 !important;
+  background: #ff000000 !important;
+}
+/deep/.nut-button {
+  background: linear-gradient(315deg, #d2977f, #d2977f) !important;
+}
+</style>
