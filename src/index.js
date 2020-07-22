@@ -54,6 +54,42 @@ module.exports = function(schema, option) {
   // for nut ui
   var _nut_component_index = 0;
 
+  const componentsMap = option.componentsMap;
+  const components = [];
+
+  const importComponent = (type) => {
+    let result = '';
+
+    if (!componentsMap || !componentsMap.list) {
+      return result;
+    }
+
+    if (componentsMap && !components.includes(type)) {
+      const componentMap = componentsMap.list.filter(com => com.name === type)[0];
+
+      if (componentMap) {
+        const pkgName = componentMap.package ? componentMap.package : '@alifd/next';
+
+        if (componentMap.exportName) {
+          
+          let exportName = componentMap.dependence.destructuring ? `{ ${componentMap.exportName} }` : componentMap.exportName;
+          result = componentMap.main
+            ? `import ${exportName} from '${pkgName}${componentMap.main}';\n`
+            : `import ${exportName} from '${pkgName}';\n`;
+          result += `${componentMap.exportName}.install(Vue);`;
+        }
+
+        components.push(componentMap.name);
+      } else {
+        // not find in componentsMap
+        result = `import {${type}} from '@alifd/next'`;
+        components.push(type);
+      }      
+    }
+
+    return result;
+  };
+
   const isExpression = (value) => {
     return /^\{\{.*\}\}$/.test(value);
   }
@@ -350,6 +386,13 @@ module.exports = function(schema, option) {
         } else {
           xml = `<${type}${classString}${props} />`;
         }
+
+        const importString = importComponent(type);
+
+        if (importString) {
+          imports.push(importString);
+        }
+        break;
     }
 
     if (schema.loop) {
@@ -456,12 +499,8 @@ module.exports = function(schema, option) {
           </template>
           <script>
             import Vue from "vue";
-            import { TabPanel,Tab,Button } from "@nutui/nutui";
-            TabPanel.install(Vue);
-            Tab.install(Vue);
-            Button.install(Vue);
-
             ${imports.join('\n')}
+
             export default {
               data() {
                 return {

@@ -72,10 +72,12 @@
 </template>
 <script>
 import Vue from 'vue';
-import { TabPanel, Tab, Button } from '@nutui/nutui';
-TabPanel.install(Vue);
-Tab.install(Vue);
+import { Button } from '@nutui/nutui';
 Button.install(Vue);
+import { TabPanel } from '@nutui/nutui';
+TabPanel.install(Vue);
+import { Tab } from '@nutui/nutui';
+Tab.install(Vue);
 
 export default {
   data() {
