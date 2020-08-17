@@ -2,69 +2,99 @@
   <div class="mod">
     <div class="hd">
       <div class="group">
-        <img class="icon" src="./images/img_42490_0_6.png" />
-        <img class="icon_2" src="./images/img_42490_0_5.png" />
+        <img
+          class="icon"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/20b692f0c73d11eab0fa7be3cecb4e40.png"
+        />
+        <img
+          class="icon_1"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/20977230c73d11ea8391bde74808fc27.png"
+        />
       </div>
       <span class="txt" :lines="1">4:21 PM</span>
       <div class="block">
         <div class="container"><div class="color" /></div>
-        <img class="dot" src="./images/img_42490_0_4.png" />
+        <img
+          class="dot"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2076f1e0c73d11ea94c1ff74bf9c8644.png"
+        />
       </div>
     </div>
     <div class="bd">
-      <div class="group_2">
-        <img class="img" src="./images/img_42490_0_7.png" />
+      <div class="group_1">
+        <img
+          class="picture"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21188910c73d11eaa01dc33968a74e70.png"
+        />
       </div>
       <span class="word" :lines="1">爱豆主页</span>
-      <img class="icon_3" src="./images/img_42490_0_8.png" />
+      <img
+        class="icon_2"
+        src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21420a10c73d11ea8af54f0827e436d9.png"
+      />
     </div>
     <div class="main">
-      <img class="layer" src="./images/img_42490_0_9.png" />
-      <div class="block_3">
-        <img class="largeIcon" src="./images/img_42490_0_10.png" />
+      <img
+        class="layer"
+        src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/219c5f10c73d11eab3749f165dbfc598.png"
+      />
+      <div class="block_1">
+        <img
+          class="largeIcon"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21d34d90c73d11eabe6935e41d985655.png"
+        />
         <div class="block_2">
-          <img class="avator" src="./images/img_42490_0_11.png" />
+          <img
+            class="pic"
+            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2205a830c73d11ea8dc81bf7482ba5b8.png"
+          />
           <div class="outer">
             <span class="info" :lines="1">莫尼卡·贝鲁奇</span>
-            <span class="word_2" :lines="1">粉丝：98767868709</span>
-            <nut-button
-              class="tagWrap"
-              :shape="nut_button_1.shape"
-              :color="nut_button_1.color"
+            <span class="txt_1" :lines="1">粉丝：98767868709</span>
+            <nut-button class="normal_component"
               ><span class="tag" :lines="1">已加入</span>
             </nut-button>
           </div>
         </div>
       </div>
     </div>
-    <nut-tab
-      class="submain"
-      :position-nav="nut_tab_2.position_nav"
-      :is-show-line="nut_tab_2.is_show_line"
+    <nut-tab class="normal_component_1"
       ><nut-tab-panel
-        class="empty"
+        class="normal_component_2"
+        :lines="nut_tab_panel_1.lines"
+        :tab-title="nut_tab_panel_1.tab_title"/><nut-tab-panel
+        class="normal_component_3"
+        :lines="nut_tab_panel_2.lines"
+        :tab-title="nut_tab_panel_2.tab_title"/><nut-tab-panel
+        class="normal_component_4"
         :lines="nut_tab_panel_3.lines"
-        :tab-title="nut_tab_panel_3.tab_title"/><nut-tab-panel
-        class="div"
-        :lines="nut_tab_panel_4.lines"
-        :tab-title="nut_tab_panel_4.tab_title"/><nut-tab-panel
-        class="empty_2"
-        :lines="nut_tab_panel_5.lines"
-        :tab-title="nut_tab_panel_5.tab_title"
+        :tab-title="nut_tab_panel_3.tab_title"
     /></nut-tab>
-    <div class="row">
-      <div class="group_3">
-        <img class="icon_4" src="./images/img_42490_0_1.png" />
-        <img class="icon_5" src="./images/img_42490_0_0.png" />
+    <div class="submain">
+      <div class="group_2">
+        <img
+          class="icon_3"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1ffa95f0c73d11eaa1c58762607b5b2a.png"
+        />
+        <img
+          class="icon_4"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1fd13c00c73d11ea8151c5ab82b912af.png"
+        />
         <span class="brianRodriguez" :lines="1">Brian Rodriguez</span>
       </div>
       <span class="price" :lines="1">¥1678,89</span>
     </div>
     <div class="ft">
-      <div class="block_4">
-        <img class="icon_6" src="./images/img_42490_0_3.png" />
-        <img class="icon_7" src="./images/img_42490_0_2.png" />
-        <span class="brianRodriguez_2" :lines="1">Brian Rodriguez</span>
+      <div class="block_3">
+        <img
+          class="icon_5"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2047f2a0c73d11eaa11ae3ab3bdbc6a1.png"
+        />
+        <img
+          class="icon_6"
+          src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/202a3170c73d11eaa35975d6777d27bb.png"
+        />
+        <span class="brianRodriguez_1" :lines="1">Brian Rodriguez</span>
       </div>
       <span class="money" :lines="1">¥1678,89</span>
     </div>
@@ -82,23 +112,15 @@ Tab.install(Vue);
 export default {
   data() {
     return {
-      nut_button_1: {
-        shape: 'circle',
-        color: '#d2977f'
-      },
-      nut_tab_2: {
-        position_nav: 'top',
-        is_show_line: true
-      },
-      nut_tab_panel_3: {
+      nut_tab_panel_1: {
         lines: 1,
         tab_title: '排行'
       },
-      nut_tab_panel_4: {
+      nut_tab_panel_2: {
         lines: 1,
         tab_title: '商品'
       },
-      nut_tab_panel_5: {
+      nut_tab_panel_3: {
         lines: 1,
         tab_title: '活动'
       },

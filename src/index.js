@@ -1,3 +1,10 @@
+class DependencePackage{
+  constructor(name, version) {
+    this.package = name;
+    this.version = version;
+  }
+}
+
 module.exports = function(schema, option) {
   const {_, prettier} = option;
 
@@ -6,6 +13,7 @@ module.exports = function(schema, option) {
 
   // imports
   const imports = [];
+  var imports4panel = [];
 
   // Global Public Functions
   const utils = [];
@@ -76,6 +84,19 @@ module.exports = function(schema, option) {
           result = componentMap.main
             ? `import ${exportName} from '${pkgName}${componentMap.main}';\n`
             : `import ${exportName} from '${pkgName}';\n`;
+          
+          let dp = new DependencePackage(pkgName, componentMap.dependenceVersion)
+          let bExist = false;
+          imports4panel.forEach(element => {
+            if (element.package === pkgName){
+              bExist = true;
+              result;
+            }
+          });
+          if (!bExist){
+            imports4panel.push(dp);
+          }     
+
           result += `${componentMap.exportName}.install(Vue);`;
         }
 
@@ -527,6 +548,7 @@ module.exports = function(schema, option) {
           </style>
         `, prettierOpt),
         panelType: 'vue',
+        panelImports: JSON.stringify(imports4panel)
       },
       {
         panelName: 'index.css',

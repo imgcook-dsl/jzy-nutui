@@ -33,7 +33,7 @@
   height: 11px;
 }
 
-.icon_2 {
+.icon_1 {
   width: 15px;
   height: 11px;
 }
@@ -98,7 +98,7 @@
   height: 43px;
 }
 
-.group_2 {
+.group_1 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -109,7 +109,7 @@
   height: 20px;
 }
 
-.img {
+.picture {
   width: 7px;
   height: 13px;
 }
@@ -128,7 +128,7 @@
   font-weight: 400;
 }
 
-.icon_3 {
+.icon_2 {
   width: 17px;
   height: 3px;
 }
@@ -150,16 +150,14 @@
   height: 232px;
 }
 
-.block_3 {
+.block_1 {
   display: flex;
-  flex-direction: column;
+  position: relative;
   align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(34, 36, 42, 0.5);
   width: 414px;
   height: 232px;
-  position: relative;
-  background-color: rgba(34, 36, 42, 0.5);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .largeIcon {
@@ -180,7 +178,7 @@
   height: 88px;
 }
 
-.avator {
+.pic {
   margin-right: 18px;
   width: 88px;
   height: 88px;
@@ -204,7 +202,7 @@
   font-weight: 500;
 }
 
-.word_2 {
+.txt_1 {
   position: relative;
   opacity: 1;
   margin-top: 2px;
@@ -216,7 +214,7 @@
   font-weight: 400;
 }
 
-.tagWrap {
+.normal_component {
   display: flex;
   position: relative;
   align-items: center;
@@ -243,27 +241,27 @@
   font-weight: 400;
 }
 
-.submain {
+.normal_component_1 {
   width: 361px;
   height: 22px;
 }
 
-.empty {
+.normal_component_2 {
   width: 29px;
   height: 20px;
 }
 
-.div {
+.normal_component_3 {
   width: 29px;
   height: 20px;
 }
 
-.empty_2 {
+.normal_component_4 {
   width: 29px;
   height: 20px;
 }
 
-.row {
+.submain {
   box-sizing: border-box;
   display: flex;
   position: relative;
@@ -280,20 +278,20 @@
   height: 60px;
 }
 
-.group_3 {
+.group_2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 40px;
 }
 
-.icon_4 {
+.icon_3 {
   margin-right: 6px;
   width: 30px;
   height: 30px;
 }
 
-.icon_5 {
+.icon_4 {
   margin-right: 10px;
   width: 40px;
   height: 40px;
@@ -342,27 +340,27 @@
   height: 60px;
 }
 
-.block_4 {
+.block_3 {
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 40px;
 }
 
-.icon_6 {
+.icon_5 {
   margin-right: 6px;
   width: 30px;
   height: 30px;
 }
 
-.icon_7 {
+.icon_6 {
   margin-right: 10px;
   width: 40px;
   height: 40px;
   overflow: hidden;
 }
 
-.brianRodriguez_2 {
+.brianRodriguez_1 {
   opacity: 1;
   max-width: 153px;
   height: 22px;

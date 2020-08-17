@@ -33,7 +33,7 @@
   height: 2.66vw;
 }
 
-.icon_2 {
+.icon_1 {
   width: 3.62vw;
   height: 2.66vw;
 }
@@ -98,7 +98,7 @@
   height: 10.39vw;
 }
 
-.group_2 {
+.group_1 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -109,7 +109,7 @@
   height: 4.83vw;
 }
 
-.img {
+.picture {
   width: 1.69vw;
   height: 3.14vw;
 }
@@ -128,7 +128,7 @@
   font-weight: 400;
 }
 
-.icon_3 {
+.icon_2 {
   width: 4.11vw;
   height: 0.72vw;
 }
@@ -150,16 +150,14 @@
   height: 56.04vw;
 }
 
-.block_3 {
+.block_1 {
   display: flex;
-  flex-direction: column;
+  position: relative;
   align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(34, 36, 42, 0.5);
   width: 100vw;
   height: 56.04vw;
-  position: relative;
-  background-color: rgba(34, 36, 42, 0.5);
-  border-bottom-left-radius: 2.42vw;
-  border-bottom-right-radius: 2.42vw;
 }
 
 .largeIcon {
@@ -180,7 +178,7 @@
   height: 21.26vw;
 }
 
-.avator {
+.pic {
   margin-right: 4.35vw;
   width: 21.26vw;
   height: 21.26vw;
@@ -204,7 +202,7 @@
   font-weight: 500;
 }
 
-.word_2 {
+.txt_1 {
   position: relative;
   opacity: 1;
   margin-top: 0.48vw;
@@ -216,7 +214,7 @@
   font-weight: 400;
 }
 
-.tagWrap {
+.normal_component {
   display: flex;
   position: relative;
   align-items: center;
@@ -243,27 +241,27 @@
   font-weight: 400;
 }
 
-.submain {
+.normal_component_1 {
   width: 87.2vw;
   height: 5.31vw;
 }
 
-.empty {
+.normal_component_2 {
   width: 7vw;
   height: 4.83vw;
 }
 
-.div {
+.normal_component_3 {
   width: 7vw;
   height: 4.83vw;
 }
 
-.empty_2 {
+.normal_component_4 {
   width: 7vw;
   height: 4.83vw;
 }
 
-.row {
+.submain {
   box-sizing: border-box;
   display: flex;
   position: relative;
@@ -280,20 +278,20 @@
   height: 14.49vw;
 }
 
-.group_3 {
+.group_2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 9.66vw;
 }
 
-.icon_4 {
+.icon_3 {
   margin-right: 1.45vw;
   width: 7.25vw;
   height: 7.25vw;
 }
 
-.icon_5 {
+.icon_4 {
   margin-right: 2.42vw;
   width: 9.66vw;
   height: 9.66vw;
@@ -342,27 +340,27 @@
   height: 14.49vw;
 }
 
-.block_4 {
+.block_3 {
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 9.66vw;
 }
 
-.icon_6 {
+.icon_5 {
   margin-right: 1.45vw;
   width: 7.25vw;
   height: 7.25vw;
 }
 
-.icon_7 {
+.icon_6 {
   margin-right: 2.42vw;
   width: 9.66vw;
   height: 9.66vw;
   overflow: hidden;
 }
 
-.brianRodriguez_2 {
+.brianRodriguez_1 {
   opacity: 1;
   max-width: 36.96vw;
   height: 5.31vw;

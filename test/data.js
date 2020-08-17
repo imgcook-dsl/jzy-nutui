@@ -1,13 +1,6 @@
-module.exports = {
+module.exports =  {
   "componentName": "Block",
-  "id": "7817c2c0-c59a-11ea-bea9-41380768dde2",
-  "rect": {
-    "x": 0,
-    "y": 0,
-    "width": 414,
-    "height": 931
-  },
-  "smart": {},
+  "id": "36fc7a70-c73d-11ea-a1a3-bb833f155e27",
   "props": {
     "style": {
       "display": "flex",
@@ -18,20 +11,21 @@ module.exports = {
     },
     "className": "mod"
   },
-  "artboardImg": "./images/img_42490_0_6.png",
-  "imgcook": {
-    "restore_id": "0a4ebd96-3849-4030-bc3e-cb8e27983df3"
+  "artboardImg": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1ee10fa0c73d11ea8662210822c02efa.png",
+  "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 414,
+    "height": 931
   },
+  "pluginVersion": "2.2.1",
+  "layerProtocols": ["group", "component"],
+  "name": "粉丝团_排名",
+  "reference": "sketch",
+  "restore_id": "f9a12943-3e41-459a-8ef3-696cf9d3db7c",
   "children": [{
     "componentName": "Div",
-    "id": "78192250-c59a-11ea-bea9-41380768dde2",
-    "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 414,
-      "height": 22
-    },
-    "smart": {},
+    "id": "36fe4f30-c73d-11ea-a1a3-bb833f155e27",
     "props": {
       "style": {
         "display": "flex",
@@ -45,17 +39,16 @@ module.exports = {
       },
       "className": "hd"
     },
-    "selfId": "8C9AE1A4-C5C4-4A5B-B2CC-6F9009338A94",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 414,
+      "height": 22
+    },
+    "selfId": "A6B0E36D-D5B5-4657-8734-EA09C6FEEEFD",
     "children": [{
       "componentName": "Div",
-      "id": "0c9686f0-f271-4172-b826-90dec950ec95",
-      "rect": {
-        "x": 14,
-        "y": 5,
-        "width": 35,
-        "height": 11
-      },
-      "smart": {},
+      "id": "a5a97841-6db6-4702-96e0-1efed19d2f89",
       "props": {
         "style": {
           "display": "flex",
@@ -68,56 +61,119 @@ module.exports = {
         },
         "className": "group"
       },
+      "rect": {
+        "x": 14,
+        "y": 5,
+        "width": 35,
+        "height": 11
+      },
       "children": [{
         "componentName": "Image",
-        "id": "7818fb42-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 14,
-          "y": 5,
-          "width": 17,
-          "height": 11
-        },
-        "smart": {},
+        "id": "36fe0111-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "marginRight": "3px",
             "width": "17px",
             "height": "11px"
           },
-          "src": "./images/img_42490_0_6.png",
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/20b692f0c73d11eab0fa7be3cecb4e40.png",
           "className": "icon"
         },
-        "selfId": "1DCD4ADE-DFDB-4D21-95EC-6576BED8E1DE"
+        "rect": {
+          "x": 14,
+          "y": 5,
+          "width": 17,
+          "height": 11
+        },
+        "selfId": "E0DB71E7-3402-4CAA-99A1-2BC8F3A44DB0",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "pic",
+                "name": "dvc_default",
+                "id": 240423
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 985937,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "icon"
+          }
+        }
       }, {
         "componentName": "Image",
-        "id": "7818fb43-c59a-11ea-bea9-41380768dde2",
+        "id": "36fe0112-c73d-11ea-a1a3-bb833f155e27",
+        "props": {
+          "style": {
+            "width": "15px",
+            "height": "11px"
+          },
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/20977230c73d11ea8391bde74808fc27.png",
+          "className": "icon_1"
+        },
         "rect": {
           "x": 34,
           "y": 5,
           "width": 15,
           "height": 11
         },
-        "smart": {},
-        "props": {
-          "style": {
-            "width": "15px",
-            "height": "11px"
+        "selfId": "A7BC98ED-A563-4FD8-9E03-45022D48CDAE",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "img",
+                "name": "dvc_default",
+                "id": 629862
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 389130,
+                "choose": true
+              }]
+            }
           },
-          "src": "./images/img_42490_0_5.png",
-          "className": "icon_2"
+          "output": {
+            "className": "icon_1"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 510698
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "group",
+              "name": "dvc_view",
+              "id": 542909,
+              "choose": true
+            }]
+          }
         },
-        "selfId": "2A35C013-C666-435B-ACE3-F81E70CF0D40"
-      }]
+        "output": {
+          "className": "group"
+        }
+      }
     }, {
       "componentName": "Text",
-      "id": "7818fb41-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 183,
-        "y": 0,
-        "width": 49,
-        "height": 22
-      },
-      "smart": {},
+      "id": "36fe0110-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "opacity": 1,
@@ -136,17 +192,32 @@ module.exports = {
         "lines": 1,
         "className": "txt"
       },
-      "selfId": "9C42C3B4-9E20-4555-AC46-67A2B1B130B00"
+      "rect": {
+        "x": 183,
+        "y": 0,
+        "width": 49,
+        "height": 22
+      },
+      "selfId": "8B8D63C7-882B-4BFC-9594-7DDBCF27B7670",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "txt",
+              "name": "dvc_default",
+              "id": 27069,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "txt"
+        }
+      }
     }, {
       "componentName": "Div",
-      "id": "09dca3d5-3750-4801-96ba-7bb8132f2336",
-      "rect": {
-        "x": 375,
-        "y": 5,
-        "width": 24,
-        "height": 11
-      },
-      "smart": {},
+      "id": "e8e39c8a-efad-4d31-b4bb-c0faca80659a",
       "props": {
         "style": {
           "display": "flex",
@@ -158,16 +229,15 @@ module.exports = {
         },
         "className": "block"
       },
+      "rect": {
+        "x": 375,
+        "y": 5,
+        "width": 24,
+        "height": 11
+      },
       "children": [{
         "componentName": "Div",
-        "id": "7818fb46-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 375,
-          "y": 5,
-          "width": 22,
-          "height": 11
-        },
-        "smart": {},
+        "id": "36fe2821-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "display": "flex",
@@ -184,17 +254,16 @@ module.exports = {
           },
           "className": "container"
         },
-        "selfId": "5709D84D-3FC3-4E6F-B2DA-6566FC5F1E5F",
+        "rect": {
+          "x": 375,
+          "y": 5,
+          "width": 22,
+          "height": 11
+        },
+        "selfId": "2379991C-1838-46E5-B9D5-982FF5A4D4DA",
         "children": [{
           "componentName": "Div",
-          "id": "7818fb44-c59a-11ea-bea9-41380768dde2",
-          "rect": {
-            "x": 377,
-            "y": 7,
-            "width": 18,
-            "height": 7
-          },
-          "smart": {},
+          "id": "36fe0113-c73d-11ea-a1a3-bb833f155e27",
           "props": {
             "style": {
               "borderRadius": "1.333333373069763px",
@@ -204,39 +273,153 @@ module.exports = {
             },
             "className": "color"
           },
-          "selfId": "3C511AF9-0C5C-4DBF-8809-E2639474925A"
-        }]
+          "rect": {
+            "x": 377,
+            "y": 7,
+            "width": 18,
+            "height": 7
+          },
+          "selfId": "C61F43D9-58F5-4B5D-B638-D57C2F5C41D7",
+          "semantic": {
+            "result": {
+              "rule": {
+                "dvc_default": [{
+                  "level": 100,
+                  "result": "div",
+                  "name": "dvc_default",
+                  "id": 851456
+                }],
+                "dvc_view": [{
+                  "level": 100,
+                  "result": "color",
+                  "name": "dvc_view",
+                  "id": 95204,
+                  "choose": true
+                }]
+              }
+            },
+            "output": {
+              "className": "color"
+            }
+          }
+        }],
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "div",
+                "name": "dvc_default",
+                "id": 313511
+              }],
+              "dvc_view": [{
+                "level": 95,
+                "result": "container",
+                "name": "dvc_view",
+                "id": 96110,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "container"
+          }
+        }
       }, {
         "componentName": "Image",
-        "id": "7818fb45-c59a-11ea-bea9-41380768dde2",
+        "id": "36fe2820-c73d-11ea-a1a3-bb833f155e27",
+        "props": {
+          "style": {
+            "width": "1px",
+            "height": "4px"
+          },
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2076f1e0c73d11ea94c1ff74bf9c8644.png",
+          "className": "dot"
+        },
         "rect": {
           "x": 398,
           "y": 9,
           "width": 1,
           "height": 4
         },
-        "smart": {},
-        "props": {
-          "style": {
-            "width": "1px",
-            "height": "4px"
+        "selfId": "F2A5334E-7CE7-4715-9F1E-B3414425E443",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "image",
+                "name": "dvc_default",
+                "id": 910001
+              }],
+              "dvc_picture": [{
+                "level": 80,
+                "result": "dot",
+                "name": "dvc_picture",
+                "id": 894413,
+                "choose": true
+              }]
+            }
           },
-          "src": "./images/img_42490_0_4.png",
-          "className": "dot"
+          "output": {
+            "className": "dot"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 644172
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "block",
+              "name": "dvc_view",
+              "id": 47342,
+              "choose": true
+            }]
+          }
         },
-        "selfId": "C656E1C4-8D9F-4D00-9700-4A22272FE0AA"
-      }]
-    }]
+        "output": {
+          "className": "block"
+        }
+      }
+    }],
+    "semantic": {
+      "result": {
+        "rule": {
+          "dvc_layout": [{
+            "level": 100,
+            "result": "hd",
+            "name": "dvc_layout",
+            "id": 458576,
+            "choose": true
+          }],
+          "dvc_default": [{
+            "level": 100,
+            "result": "div",
+            "name": "dvc_default",
+            "id": 412812
+          }],
+          "dvc_view": [{
+            "level": 95,
+            "result": "block",
+            "name": "dvc_view",
+            "id": 857461
+          }]
+        }
+      },
+      "output": {
+        "className": "hd"
+      }
+    }
   }, {
     "componentName": "Div",
-    "id": "7818fb40-c59a-11ea-bea9-41380768dde2",
-    "rect": {
-      "x": 0,
-      "y": 22,
-      "width": 414,
-      "height": 43
-    },
-    "smart": {},
+    "id": "36fdda02-c73d-11ea-a1a3-bb833f155e27",
     "props": {
       "style": {
         "display": "flex",
@@ -250,17 +433,16 @@ module.exports = {
       },
       "className": "bd"
     },
-    "selfId": "7FCC1756-A833-4E7A-99DD-CD8960BDBE00",
+    "rect": {
+      "x": 0,
+      "y": 22,
+      "width": 414,
+      "height": 43
+    },
+    "selfId": "41E0F8FD-613B-49D1-97E5-0D891B6A0476",
     "children": [{
       "componentName": "Div",
-      "id": "7818d434-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 20,
-        "y": 33,
-        "width": 20,
-        "height": 20
-      },
-      "smart": {},
+      "id": "36fdda00-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "display": "flex",
@@ -272,39 +454,75 @@ module.exports = {
           "width": "20px",
           "height": "20px"
         },
-        "className": "group_2"
+        "className": "group_1"
       },
-      "selfId": "22BEFAC2-4E34-464B-9B78-9C5378BA32A2",
+      "rect": {
+        "x": 20,
+        "y": 33,
+        "width": 20,
+        "height": 20
+      },
+      "selfId": "9B32D4BF-1BEA-4508-A6D7-7EC81B917233",
       "children": [{
         "componentName": "Image",
-        "id": "7818d432-c59a-11ea-bea9-41380768dde2",
+        "id": "36fdb2f0-c73d-11ea-a1a3-bb833f155e27",
+        "props": {
+          "style": {
+            "width": "7px",
+            "height": "13px"
+          },
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21188910c73d11eaa01dc33968a74e70.png",
+          "className": "picture"
+        },
         "rect": {
           "x": 25,
           "y": 36,
           "width": 7,
           "height": 13
         },
-        "smart": {},
-        "props": {
-          "style": {
-            "width": "7px",
-            "height": "13px"
+        "selfId": "3AAA62D8-6AEF-46B0-897F-8DD677C801BA",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "picture",
+                "name": "dvc_default",
+                "id": 292597,
+                "choose": true
+              }]
+            }
           },
-          "src": "./images/img_42490_0_7.png",
-          "className": "img"
+          "output": {
+            "className": "picture"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 271699
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "group",
+              "name": "dvc_view",
+              "id": 591582,
+              "choose": true
+            }]
+          }
         },
-        "selfId": "4F06D18C-340E-4702-A282-AA50A42292D1"
-      }]
+        "output": {
+          "className": "group_1"
+        }
+      }
     }, {
       "componentName": "Text",
-      "id": "7818d435-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 175,
-        "y": 32,
-        "width": 64,
-        "height": 22
-      },
-      "smart": {},
+      "id": "36fdda01-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "opacity": 1,
@@ -323,30 +541,112 @@ module.exports = {
         "lines": 1,
         "className": "word"
       },
-      "selfId": "FCC8821D-BF67-4B56-B999-FB7662761F670"
+      "rect": {
+        "x": 175,
+        "y": 32,
+        "width": 64,
+        "height": 22
+      },
+      "selfId": "8B2B0503-2435-4D83-94A4-03BFF7952BB60",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "word",
+              "name": "dvc_default",
+              "id": 458827,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "word"
+        }
+      }
     }, {
       "componentName": "Image",
-      "id": "7818d431-c59a-11ea-bea9-41380768dde2",
+      "id": "36fd3dc2-c73d-11ea-a1a3-bb833f155e27",
+      "props": {
+        "style": {
+          "width": "17px",
+          "height": "3px"
+        },
+        "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21420a10c73d11ea8af54f0827e436d9.png",
+        "className": "icon_2"
+      },
       "rect": {
         "x": 376,
         "y": 42,
         "width": 17,
         "height": 3
       },
-      "smart": {},
-      "props": {
-        "style": {
-          "width": "17px",
-          "height": "3px"
+      "selfId": "5F374C03-9BCD-4767-8586-B85FCE8642A3",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "pic",
+              "name": "dvc_default",
+              "id": 68564
+            }],
+            "dvc_picture": [{
+              "level": 60,
+              "result": "icon",
+              "name": "dvc_picture",
+              "id": 502129,
+              "choose": true
+            }]
+          }
         },
-        "src": "./images/img_42490_0_8.png",
-        "className": "icon_3"
+        "output": {
+          "className": "icon_2"
+        }
+      }
+    }],
+    "semantic": {
+      "result": {
+        "rule": {
+          "dvc_layout": [{
+            "level": 100,
+            "result": "bd",
+            "name": "dvc_layout",
+            "id": 417530,
+            "choose": true
+          }],
+          "dvc_default": [{
+            "level": 100,
+            "result": "div",
+            "name": "dvc_default",
+            "id": 291875
+          }],
+          "dvc_view": [{
+            "level": 95,
+            "result": "block",
+            "name": "dvc_view",
+            "id": 946289
+          }]
+        }
       },
-      "selfId": "22904259-5BE4-4B38-92DA-1C039980B49E"
-    }]
+      "output": {
+        "className": "bd"
+      }
+    }
   }, {
     "componentName": "Div",
-    "id": "ff7a0374-9c6f-405f-a586-cd182cadbb2f",
+    "id": "e303aceb-128c-424f-8e83-407f0a09f19d",
+    "props": {
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "width": "414px",
+        "height": "232px"
+      },
+      "className": "main"
+    },
     "rect": {
       "x": 0,
       "y": 65,
@@ -360,28 +660,10 @@ module.exports = {
         }
       }
     },
-    "props": {
-      "style": {
-        "display": "flex",
-        "position": "relative",
-        "alignItems": "center",
-        "flexDirection": "row",
-        "width": "414px",
-        "height": "232px"
-      },
-      "className": "main"
-    },
-    "selfId": "5E7A1AFA-6B7C-459A-8765-0325324EC9B7",
+    "selfId": "8080849C-CC8A-4F41-8227-4B1BFEE984C5",
     "children": [{
       "componentName": "Image",
-      "id": "7818d430-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 0,
-        "y": 65,
-        "width": 414,
-        "height": 232
-      },
-      "smart": {},
+      "id": "36fd3dc1-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "position": "absolute",
@@ -390,45 +672,63 @@ module.exports = {
           "width": "414px",
           "height": "232px"
         },
-        "src": "./images/img_42490_0_9.png",
+        "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/219c5f10c73d11eab3749f165dbfc598.png",
         "className": "layer"
       },
-      "selfId": "DAA5A546-A1F5-4146-94D6-EF9E50294A3A"
-    }, {
-      "componentName": "Div",
-      "id": "7818ad24-c59a-11ea-bea9-41380768dde2",
       "rect": {
         "x": 0,
         "y": 65,
         "width": 414,
         "height": 232
       },
-      "smart": {},
+      "selfId": "5B1F9F6A-AB28-413F-8D24-84CE42F4F5B2",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "img",
+              "name": "dvc_default",
+              "id": 214682
+            }],
+            "dvc_picture": [{
+              "level": 70,
+              "result": "layer",
+              "name": "dvc_picture",
+              "id": 784350,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "layer"
+        }
+      }
+    }, {
+      "componentName": "Div",
+      "id": "36fd3dc0-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "display": "flex",
-          "flexDirection": "column",
-          "alignItems": "flex-start",
-          "width": "414px",
-          "height": "232px",
           "position": "relative",
+          "alignItems": "flex-start",
+          "flexDirection": "column",
           "backgroundColor": "rgba(34,36,42,0.50)",
-          "borderBottomLeftRadius": 10,
-          "borderBottomRightRadius": 10
+          "width": "414px",
+          "height": "232px"
         },
-        "className": "block_3"
+        "className": "block_1"
       },
-      "selfId": "77AF9F19-BF61-40B3-82AA-2A16A61AAAD3",
+      "rect": {
+        "x": 0,
+        "y": 65,
+        "width": 414,
+        "height": 232
+      },
+      "selfId": "FFBCF38E-41E1-41E6-B0A1-5F904E958168",
       "children": [{
         "componentName": "Image",
-        "id": "78188613-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 363,
-          "y": 76,
-          "width": 51,
-          "height": 38
-        },
-        "smart": {},
+        "id": "36fcefa2-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "position": "relative",
@@ -437,20 +737,41 @@ module.exports = {
             "width": "51px",
             "height": "38px"
           },
-          "src": "./images/img_42490_0_10.png",
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/21d34d90c73d11eabe6935e41d985655.png",
           "className": "largeIcon"
         },
-        "selfId": "12794B5B-9D16-4418-970C-B819BE5FDC9F"
+        "rect": {
+          "x": 363,
+          "y": 76,
+          "width": 51,
+          "height": 38
+        },
+        "selfId": "12D4826D-994F-45F4-9B52-B6001E075B42",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "image",
+                "name": "dvc_default",
+                "id": 808479
+              }],
+              "dvc_picture": [{
+                "level": 38,
+                "result": "largeIcon",
+                "name": "dvc_picture",
+                "id": 696773,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "largeIcon"
+          }
+        }
       }, {
         "componentName": "Div",
-        "id": "22b85f65-d9d6-49ea-80c4-7b24adf01c91",
-        "rect": {
-          "x": 40,
-          "y": 177,
-          "width": 238,
-          "height": 88
-        },
-        "smart": {},
+        "id": "08339d22-4ff4-45a3-9f3b-434c64658d92",
         "props": {
           "style": {
             "display": "flex",
@@ -463,36 +784,56 @@ module.exports = {
           },
           "className": "block_2"
         },
+        "rect": {
+          "x": 40,
+          "y": 177,
+          "width": 238,
+          "height": 88
+        },
         "children": [{
           "componentName": "Image",
-          "id": "78188612-c59a-11ea-bea9-41380768dde2",
-          "rect": {
-            "x": 40,
-            "y": 177,
-            "width": 88,
-            "height": 88
-          },
-          "smart": {},
+          "id": "36fcefa1-c73d-11ea-a1a3-bb833f155e27",
           "props": {
             "style": {
               "marginRight": "18px",
               "width": "88px",
               "height": "88px"
             },
-            "src": "./images/img_42490_0_11.png",
-            "className": "avator"
+            "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2205a830c73d11ea8dc81bf7482ba5b8.png",
+            "className": "pic"
           },
-          "selfId": "E6127F2C-8C4D-4A4E-A9AE-DEFFABFC37F8"
-        }, {
-          "componentName": "Div",
-          "id": "7edea93c-3069-4042-be96-625e0ed9eb29",
           "rect": {
-            "x": 146,
+            "x": 40,
             "y": 177,
-            "width": 132,
+            "width": 88,
             "height": 88
           },
-          "smart": {},
+          "selfId": "FEF0F5F4-E575-4B19-82F1-F81AC75053E1",
+          "semantic": {
+            "result": {
+              "rule": {
+                "dvc_default": [{
+                  "level": 100,
+                  "result": "picture",
+                  "name": "dvc_default",
+                  "id": 120902
+                }],
+                "dvc_picture": [{
+                  "level": 32,
+                  "result": "pic",
+                  "name": "dvc_picture",
+                  "id": 413890,
+                  "choose": true
+                }]
+              }
+            },
+            "output": {
+              "className": "pic"
+            }
+          }
+        }, {
+          "componentName": "Div",
+          "id": "b4fe1aba-3477-4651-ba2d-e7ec73deaa55",
           "props": {
             "style": {
               "display": "flex",
@@ -502,16 +843,15 @@ module.exports = {
             },
             "className": "outer"
           },
+          "rect": {
+            "x": 146,
+            "y": 177,
+            "width": 132,
+            "height": 88
+          },
           "children": [{
             "componentName": "Text",
-            "id": "7818ad22-c59a-11ea-bea9-41380768dde2",
-            "rect": {
-              "x": 146,
-              "y": 177,
-              "width": 132,
-              "height": 28
-            },
-            "smart": {},
+            "id": "36fd16b1-c73d-11ea-a1a3-bb833f155e27",
             "props": {
               "style": {
                 "position": "relative",
@@ -527,17 +867,38 @@ module.exports = {
               "lines": 1,
               "className": "info"
             },
-            "selfId": "AC66B388-7067-4968-8158-2791448AFDFC0"
-          }, {
-            "componentName": "Text",
-            "id": "7818ad23-c59a-11ea-bea9-41380768dde2",
             "rect": {
               "x": 146,
-              "y": 207,
-              "width": 117,
-              "height": 17
+              "y": 177,
+              "width": 132,
+              "height": 28
             },
-            "smart": {},
+            "selfId": "FFD65055-833D-4646-AF7D-BEDC48C6B88E0",
+            "semantic": {
+              "result": {
+                "rule": {
+                  "dvc_default": [{
+                    "level": 100,
+                    "result": "text",
+                    "name": "dvc_default",
+                    "id": 873057
+                  }],
+                  "dvc_text": [{
+                    "level": 20,
+                    "result": "info",
+                    "name": "dvc_text",
+                    "id": 228834,
+                    "choose": true
+                  }]
+                }
+              },
+              "output": {
+                "className": "info"
+              }
+            }
+          }, {
+            "componentName": "Text",
+            "id": "36fd16b2-c73d-11ea-a1a3-bb833f155e27",
             "props": {
               "style": {
                 "position": "relative",
@@ -552,25 +913,34 @@ module.exports = {
               },
               "text": "粉丝：98767868709",
               "lines": 1,
-              "className": "word_2"
+              "className": "txt_1"
             },
-            "selfId": "16FB43A5-8084-4D30-A1AD-1629F53114AF0"
-          }, {
-            "componentName": "nut-button",
-            "id": "db13ee90-f880-48a8-8e6c-b3d03c2c7b2a",
             "rect": {
               "x": 146,
-              "y": 237,
-              "width": 80,
-              "height": 28
+              "y": 207,
+              "width": 117,
+              "height": 17
             },
-            "smart": {
-              "layerProtocol": {
-                "component": {
-                  "type": "nut-button"
+            "selfId": "0B49D754-5648-4AEF-9AB6-F3B21906794B0",
+            "semantic": {
+              "result": {
+                "rule": {
+                  "dvc_default": [{
+                    "level": 100,
+                    "result": "txt",
+                    "name": "dvc_default",
+                    "id": 694549,
+                    "choose": true
+                  }]
                 }
+              },
+              "output": {
+                "className": "txt_1"
               }
-            },
+            }
+          }, {
+            "componentName": "nut-button",
+            "id": "bd87575f-6ed7-488a-8906-361427627448",
             "props": {
               "style": {
                 "display": "flex",
@@ -584,21 +954,26 @@ module.exports = {
                 "width": "80px",
                 "height": "28px"
               },
-              "className": "tagWrap",
-              "shape": "circle",
-              "color": "#d2977f"
+              "className": "normal_component"
             },
-            "selfId": "878DE5FC-8400-4A78-968E-B2276AC68407",
+            "rect": {
+              "x": 146,
+              "y": 237,
+              "width": 80,
+              "height": 28
+            },
+            "smart": {
+              "layerProtocol": {
+                "component": {
+                  "type": "nut-button"
+                }
+              }
+            },
+            "selfId": "A62D961C-443D-42E2-B142-1453BD31D5A0",
+            "fileName": "nut-button",
             "children": [{
               "componentName": "Text",
-              "id": "7818ad20-c59a-11ea-bea9-41380768dde2",
-              "rect": {
-                "x": 168,
-                "y": 243,
-                "width": 37,
-                "height": 17
-              },
-              "smart": {},
+              "id": "36fcefa4-c73d-11ea-a1a3-bb833f155e27",
               "props": {
                 "style": {
                   "opacity": 1,
@@ -617,15 +992,160 @@ module.exports = {
                 "lines": 1,
                 "className": "tag"
               },
-              "selfId": "BE42BCE8-943D-41AC-B4B4-DCAFC1A00CB80"
+              "rect": {
+                "x": 168,
+                "y": 243,
+                "width": 37,
+                "height": 17
+              },
+              "selfId": "B8D24FF6-FE72-4196-8457-0EB017554EFC0",
+              "semantic": {
+                "result": {
+                  "rule": {
+                    "dvc_default": [{
+                      "level": 100,
+                      "result": "word",
+                      "name": "dvc_default",
+                      "id": 226445
+                    }],
+                    "dvc_text": [{
+                      "level": 65,
+                      "result": "tag",
+                      "name": "dvc_text",
+                      "id": 865848,
+                      "choose": true
+                    }]
+                  }
+                },
+                "output": {
+                  "className": "tag"
+                }
+              }
+            }],
+            "semantic": {
+              "output": {
+                "className": "normal_component"
+              }
+            }
+          }],
+          "semantic": {
+            "result": {
+              "rule": {
+                "dvc_default": [{
+                  "level": 100,
+                  "result": "div",
+                  "name": "dvc_default",
+                  "id": 647281
+                }],
+                "dvc_view": [{
+                  "level": 95,
+                  "result": "outer",
+                  "name": "dvc_view",
+                  "id": 166975,
+                  "choose": true
+                }]
+              }
+            },
+            "output": {
+              "className": "outer"
+            }
+          }
+        }],
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "div",
+                "name": "dvc_default",
+                "id": 378516
+              }],
+              "dvc_view": [{
+                "level": 95,
+                "result": "block",
+                "name": "dvc_view",
+                "id": 377752,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "block_2"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 830663
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "block",
+              "name": "dvc_view",
+              "id": 996254,
+              "choose": true
             }]
+          }
+        },
+        "output": {
+          "className": "block_1"
+        }
+      }
+    }],
+    "semantic": {
+      "result": {
+        "rule": {
+          "dvc_layout": [{
+            "level": 100,
+            "result": "main",
+            "name": "dvc_layout",
+            "id": 547127,
+            "choose": true
+          }],
+          "dvc_default": [{
+            "level": 100,
+            "result": "div",
+            "name": "dvc_default",
+            "id": 729251
+          }],
+          "dvc_view": [{
+            "level": 95,
+            "result": "block",
+            "name": "dvc_view",
+            "id": 77834
+          }],
+          "dvc_picture": [{
+            "level": 70,
+            "result": "layerWrap",
+            "name": "dvc_picture",
+            "id": 250532
           }]
-        }]
-      }]
-    }]
+        }
+      },
+      "output": {
+        "className": "main"
+      }
+    }
   }, {
     "componentName": "nut-tab",
-    "id": "19036f4a-6302-4922-bf97-98f7482510bb",
+    "id": "8173980f-d1a8-45b8-8980-2c7f8e725a26",
+    "props": {
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginTop": "20px",
+        "width": "361px",
+        "height": "22px"
+      },
+      "className": "normal_component_1"
+    },
     "rect": {
       "x": 27,
       "y": 317,
@@ -639,25 +1159,25 @@ module.exports = {
         }
       }
     },
-    "props": {
-      "style": {
-        "display": "flex",
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "alignItems": "center",
-        "marginTop": "20px",
-        "width": "361px",
-        "height": "22px",
-        "position": "relative"
-      },
-      "className": "submain",
-      "position-nav": "top",
-      "is-show-line": true
-    },
-    "selfId": "CB155ABB-D96C-4058-B009-7E4CD3B15918",
+    "selfId": "097D093B-3E2A-4A14-A2CB-CEEEA7CA5AD5",
+    "fileName": "nut-tab",
     "children": [{
       "componentName": "nut-tab-panel",
-      "id": "78188610-c59a-11ea-bea9-41380768dde2",
+      "id": "36fcc891-c73d-11ea-a1a3-bb833f155e27",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "top": "0px",
+          "right": "-1px",
+          "opacity": 1,
+          "width": "29px",
+          "height": "20px"
+        },
+        "text": "排名",
+        "lines": 1,
+        "className": "normal_component_2",
+        "tab-title": "排行"
+      },
       "rect": {
         "x": 360,
         "y": 317,
@@ -674,29 +1194,33 @@ module.exports = {
           },
           "repeat": {
             "type": "repeat",
-            "repeatId": "488248",
+            "repeatId": "456726",
             "repeatIndex": "0"
           }
         }
       },
+      "selfId": "F29AC1D5-CCDC-4D4B-BD28-6A123ABC23200",
+      "fileName": "nut-tab-panel",
+      "semantic": {
+        "output": {
+          "className": "normal_component_2"
+        }
+      }
+    }, {
+      "componentName": "nut-tab-panel",
+      "id": "36fca180-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
-          "position": "absolute",
-          "top": "0px",
-          "right": "-1px",
-          "opacity": 1,
+          "position": "relative",
+          "marginRight": "139px",
           "width": "29px",
           "height": "20px"
         },
-        "text": "排名",
+        "text": "商品",
         "lines": 1,
-        "tab-title": "排行",
-        "className": "empty"
+        "className": "normal_component_3",
+        "tab-title": "商品"
       },
-      "selfId": "DE665A52-E57E-47EF-BDE4-CE22D28A3D1A0"
-    }, {
-      "componentName": "nut-tab-panel",
-      "id": "7817e9d0-c59a-11ea-bea9-41380768dde2",
       "rect": {
         "x": 27,
         "y": 319,
@@ -713,27 +1237,33 @@ module.exports = {
           },
           "repeat": {
             "type": "repeat",
-            "repeatId": "488248",
+            "repeatId": "456726",
             "repeatIndex": "1"
           }
         }
       },
+      "selfId": "EE84473E-0BD7-4A01-92F9-409DE2FA64280",
+      "fileName": "nut-tab-panel",
+      "semantic": {
+        "output": {
+          "className": "normal_component_3"
+        }
+      }
+    }, {
+      "componentName": "nut-tab-panel",
+      "id": "36fcc890-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "position": "relative",
-          "marginRight": "139px",
+          "opacity": 1,
           "width": "29px",
           "height": "20px"
         },
-        "text": "商品",
+        "text": "活动",
         "lines": 1,
-        "tab-title": "商品",
-        "className": "div"
+        "className": "normal_component_4",
+        "tab-title": "活动"
       },
-      "selfId": "F7B759A6-9401-4367-ABAB-B835E43D3CAA0"
-    }, {
-      "componentName": "nut-tab-panel",
-      "id": "781810e0-c59a-11ea-bea9-41380768dde2",
       "rect": {
         "x": 195,
         "y": 317,
@@ -750,35 +1280,27 @@ module.exports = {
           },
           "repeat": {
             "type": "repeat",
-            "repeatId": "488248",
+            "repeatId": "456726",
             "repeatIndex": "2"
           }
         }
       },
-      "props": {
-        "style": {
-          "position": "relative",
-          "opacity": 1,
-          "width": "29px",
-          "height": "20px"
-        },
-        "text": "活动",
-        "lines": 1,
-        "tab-title": "活动",
-        "className": "empty_2"
-      },
-      "selfId": "BA246DAA-351F-40B2-9261-BFE55EA646FB0"
-    }]
+      "selfId": "34812B79-0379-4503-BD15-72D99428AF560",
+      "fileName": "nut-tab-panel",
+      "semantic": {
+        "output": {
+          "className": "normal_component_4"
+        }
+      }
+    }],
+    "semantic": {
+      "output": {
+        "className": "normal_component_1"
+      }
+    }
   }, {
     "componentName": "Div",
-    "id": "78194964-c59a-11ea-bea9-41380768dde2",
-    "rect": {
-      "x": 20,
-      "y": 369,
-      "width": 374,
-      "height": 60
-    },
-    "smart": {},
+    "id": "36fe9d51-c73d-11ea-a1a3-bb833f155e27",
     "props": {
       "style": {
         "boxSizing": "border-box",
@@ -796,19 +1318,18 @@ module.exports = {
         "width": "374px",
         "height": "60px"
       },
-      "className": "row"
+      "className": "submain"
     },
-    "selfId": "9A258D74-FB5B-4AD5-94B0-CDBEE49269CA",
+    "rect": {
+      "x": 20,
+      "y": 369,
+      "width": 374,
+      "height": 60
+    },
+    "selfId": "E984490D-6069-45A6-A823-C04EB33F7758",
     "children": [{
       "componentName": "Div",
-      "id": "d2752889-d3c0-4f2b-8961-674086e3f55a",
-      "rect": {
-        "x": 36,
-        "y": 379,
-        "width": 208,
-        "height": 40
-      },
-      "smart": {},
+      "id": "0c013159-f093-45a6-b820-a9d2774293ce",
       "props": {
         "style": {
           "display": "flex",
@@ -816,38 +1337,58 @@ module.exports = {
           "flexDirection": "row",
           "height": "40px"
         },
-        "className": "group_3"
+        "className": "group_2"
+      },
+      "rect": {
+        "x": 36,
+        "y": 379,
+        "width": 208,
+        "height": 40
       },
       "children": [{
         "componentName": "Image",
-        "id": "78194960-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 36,
-          "y": 384,
-          "width": 30,
-          "height": 30
-        },
-        "smart": {},
+        "id": "36fe7642-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "marginRight": "6px",
             "width": "30px",
             "height": "30px"
           },
-          "src": "./images/img_42490_0_1.png",
-          "className": "icon_4"
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1ffa95f0c73d11eaa1c58762607b5b2a.png",
+          "className": "icon_3"
         },
-        "selfId": "BFA815F2-F07F-454A-B75E-C95C17DAD5B1"
+        "rect": {
+          "x": 36,
+          "y": 384,
+          "width": 30,
+          "height": 30
+        },
+        "selfId": "87BE4458-BAD4-443C-B165-30724094A69E",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "pic",
+                "name": "dvc_default",
+                "id": 116094
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 744844,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "icon_3"
+          }
+        }
       }, {
         "componentName": "Image",
-        "id": "78194963-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 72,
-          "y": 379,
-          "width": 40,
-          "height": 40
-        },
-        "smart": {},
+        "id": "36fe9d50-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "marginRight": "10px",
@@ -855,20 +1396,41 @@ module.exports = {
             "height": "40px",
             "overflow": "hidden"
           },
-          "src": "./images/img_42490_0_0.png",
-          "className": "icon_5"
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1fd13c00c73d11ea8151c5ab82b912af.png",
+          "className": "icon_4"
         },
-        "selfId": "E42B5539-5B77-41DF-8BC3-638D43F19798"
+        "rect": {
+          "x": 72,
+          "y": 379,
+          "width": 40,
+          "height": 40
+        },
+        "selfId": "7A4A5DDB-5C06-4479-AD55-532BF817A30A",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "img",
+                "name": "dvc_default",
+                "id": 747623
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 843596,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "icon_4"
+          }
+        }
       }, {
         "componentName": "Text",
-        "id": "78194962-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 122,
-          "y": 388,
-          "width": 122,
-          "height": 22
-        },
-        "smart": {},
+        "id": "36fe7644-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "opacity": 1,
@@ -887,18 +1449,61 @@ module.exports = {
           "lines": 1,
           "className": "brianRodriguez"
         },
-        "selfId": "F1DC4523-53B6-4BA2-A656-35A32AEC76640"
-      }]
+        "rect": {
+          "x": 122,
+          "y": 388,
+          "width": 122,
+          "height": 22
+        },
+        "selfId": "317144A1-6D7F-4F68-8ED1-BC415AB8B0A00",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "text",
+                "name": "dvc_default",
+                "id": 256130
+              }],
+              "dvc_text": [{
+                "level": 50,
+                "result": "brianRodriguez",
+                "name": "dvc_text",
+                "id": 217553,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "brianRodriguez"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 690357
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "group",
+              "name": "dvc_view",
+              "id": 372761,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "group_2"
+        }
+      }
     }, {
       "componentName": "Text",
-      "id": "78194961-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 314,
-        "y": 390,
-        "width": 69,
-        "height": 19
-      },
-      "smart": {},
+      "id": "36fe7643-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "opacity": 1,
@@ -914,18 +1519,78 @@ module.exports = {
         "lines": 1,
         "className": "price"
       },
-      "selfId": "75557401-285E-4EE5-B93D-E4B9D26BEF860"
-    }]
+      "rect": {
+        "x": 314,
+        "y": 390,
+        "width": 69,
+        "height": 19
+      },
+      "selfId": "D7DCC325-826D-4C8C-8364-BDE54C0A42730",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "txt",
+              "name": "dvc_default",
+              "id": 469492
+            }],
+            "dvc_text": [{
+              "level": 80,
+              "result": "price",
+              "dataSuggest": {
+                "source": "data",
+                "sourceValue": "item_current_price",
+                "matchRule": "CURRENT_PRCIE"
+              },
+              "name": "dvc_text",
+              "id": 910386,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "price"
+        }
+      }
+    }],
+    "semantic": {
+      "result": {
+        "rule": {
+          "dvc_layout": [{
+            "level": 100,
+            "result": "submain",
+            "name": "dvc_layout",
+            "id": 382238,
+            "choose": true
+          }],
+          "dvc_default": [{
+            "level": 100,
+            "result": "div",
+            "name": "dvc_default",
+            "id": 198123
+          }],
+          "dvc_view": [{
+            "level": 95,
+            "result": "block",
+            "name": "dvc_view",
+            "id": 108400
+          }],
+          "dvc_text": [{
+            "level": 80,
+            "result": "priceWrap",
+            "name": "dvc_text",
+            "id": 879798
+          }]
+        }
+      },
+      "output": {
+        "className": "submain"
+      }
+    }
   }, {
     "componentName": "Div",
-    "id": "78192255-c59a-11ea-bea9-41380768dde2",
-    "rect": {
-      "x": 20,
-      "y": 451,
-      "width": 374,
-      "height": 60
-    },
-    "smart": {},
+    "id": "36fe7641-c73d-11ea-a1a3-bb833f155e27",
     "props": {
       "style": {
         "boxSizing": "border-box",
@@ -945,17 +1610,16 @@ module.exports = {
       },
       "className": "ft"
     },
-    "selfId": "8106E0AD-5000-4EBC-BF06-0B98A740B255",
+    "rect": {
+      "x": 20,
+      "y": 451,
+      "width": 374,
+      "height": 60
+    },
+    "selfId": "4C677AFF-6167-4DB9-A124-0FA036EA4970",
     "children": [{
       "componentName": "Div",
-      "id": "eb9b1744-cf43-49cb-b600-d1ee1f4d5a20",
-      "rect": {
-        "x": 36,
-        "y": 461,
-        "width": 208,
-        "height": 40
-      },
-      "smart": {},
+      "id": "2305338e-15eb-447b-a45d-bcba8ed48606",
       "props": {
         "style": {
           "display": "flex",
@@ -963,38 +1627,58 @@ module.exports = {
           "flexDirection": "row",
           "height": "40px"
         },
-        "className": "block_4"
+        "className": "block_3"
+      },
+      "rect": {
+        "x": 36,
+        "y": 461,
+        "width": 208,
+        "height": 40
       },
       "children": [{
         "componentName": "Image",
-        "id": "78192251-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 36,
-          "y": 466,
-          "width": 30,
-          "height": 30
-        },
-        "smart": {},
+        "id": "36fe4f31-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "marginRight": "6px",
             "width": "30px",
             "height": "30px"
           },
-          "src": "./images/img_42490_0_3.png",
-          "className": "icon_6"
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/2047f2a0c73d11eaa11ae3ab3bdbc6a1.png",
+          "className": "icon_5"
         },
-        "selfId": "AD5D30B4-C894-4549-AD2B-40253B31DE52"
+        "rect": {
+          "x": 36,
+          "y": 466,
+          "width": 30,
+          "height": 30
+        },
+        "selfId": "EB12B5B6-310A-470D-B424-5FDB94DD30B4",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "image",
+                "name": "dvc_default",
+                "id": 67098
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 124560,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "icon_5"
+          }
+        }
       }, {
         "componentName": "Image",
-        "id": "78192254-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 72,
-          "y": 461,
-          "width": 40,
-          "height": 40
-        },
-        "smart": {},
+        "id": "36fe7640-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "marginRight": "10px",
@@ -1002,20 +1686,41 @@ module.exports = {
             "height": "40px",
             "overflow": "hidden"
           },
-          "src": "./images/img_42490_0_2.png",
-          "className": "icon_7"
+          "src": "https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/202a3170c73d11eaa35975d6777d27bb.png",
+          "className": "icon_6"
         },
-        "selfId": "D4E0EA03-3822-49E6-8AF3-212ED75E3CF3"
+        "rect": {
+          "x": 72,
+          "y": 461,
+          "width": 40,
+          "height": 40
+        },
+        "selfId": "9981289A-4F91-4CEB-80FA-811B8F5DE731",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "picture",
+                "name": "dvc_default",
+                "id": 95754
+              }],
+              "dvc_picture": [{
+                "level": 60,
+                "result": "icon",
+                "name": "dvc_picture",
+                "id": 598886,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "icon_6"
+          }
+        }
       }, {
         "componentName": "Text",
-        "id": "78192253-c59a-11ea-bea9-41380768dde2",
-        "rect": {
-          "x": 122,
-          "y": 470,
-          "width": 122,
-          "height": 22
-        },
-        "smart": {},
+        "id": "36fe4f33-c73d-11ea-a1a3-bb833f155e27",
         "props": {
           "style": {
             "opacity": 1,
@@ -1032,20 +1737,63 @@ module.exports = {
           },
           "text": "Brian Rodriguez",
           "lines": 1,
-          "className": "brianRodriguez_2"
+          "className": "brianRodriguez_1"
         },
-        "selfId": "AA42768F-12C4-4AE6-A71F-F16FB9634AAF0"
-      }]
+        "rect": {
+          "x": 122,
+          "y": 470,
+          "width": 122,
+          "height": 22
+        },
+        "selfId": "F08CDF64-9365-44F0-99B8-E118FCC94BC00",
+        "semantic": {
+          "result": {
+            "rule": {
+              "dvc_default": [{
+                "level": 100,
+                "result": "word",
+                "name": "dvc_default",
+                "id": 162790
+              }],
+              "dvc_text": [{
+                "level": 50,
+                "result": "brianRodriguez",
+                "name": "dvc_text",
+                "id": 177121,
+                "choose": true
+              }]
+            }
+          },
+          "output": {
+            "className": "brianRodriguez_1"
+          }
+        }
+      }],
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "div",
+              "name": "dvc_default",
+              "id": 594001
+            }],
+            "dvc_view": [{
+              "level": 95,
+              "result": "block",
+              "name": "dvc_view",
+              "id": 523068,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "block_3"
+        }
+      }
     }, {
       "componentName": "Text",
-      "id": "78192252-c59a-11ea-bea9-41380768dde2",
-      "rect": {
-        "x": 314,
-        "y": 472,
-        "width": 69,
-        "height": 19
-      },
-      "smart": {},
+      "id": "36fe4f32-c73d-11ea-a1a3-bb833f155e27",
       "props": {
         "style": {
           "opacity": 1,
@@ -1061,8 +1809,105 @@ module.exports = {
         "lines": 1,
         "className": "money"
       },
-      "selfId": "476A8D58-9799-4022-982C-B152729ECA040"
-    }]
+      "rect": {
+        "x": 314,
+        "y": 472,
+        "width": 69,
+        "height": 19
+      },
+      "selfId": "C98E046B-0CD4-4F08-9944-50267949C18C0",
+      "semantic": {
+        "result": {
+          "rule": {
+            "dvc_default": [{
+              "level": 100,
+              "result": "text",
+              "name": "dvc_default",
+              "id": 781111
+            }],
+            "dvc_text": [{
+              "level": 80,
+              "result": "money",
+              "dataSuggest": {
+                "source": "data",
+                "sourceValue": "item_current_price",
+                "matchRule": "CURRENT_PRCIE"
+              },
+              "name": "dvc_text",
+              "id": 508510,
+              "choose": true
+            }]
+          }
+        },
+        "output": {
+          "className": "money"
+        }
+      }
+    }],
+    "semantic": {
+      "result": {
+        "rule": {
+          "dvc_layout": [{
+            "level": 100,
+            "result": "ft",
+            "name": "dvc_layout",
+            "id": 674380,
+            "choose": true
+          }],
+          "dvc_default": [{
+            "level": 100,
+            "result": "div",
+            "name": "dvc_default",
+            "id": 67456
+          }],
+          "dvc_view": [{
+            "level": 95,
+            "result": "block",
+            "name": "dvc_view",
+            "id": 912560
+          }],
+          "dvc_text": [{
+            "level": 80,
+            "result": "moneyWrap",
+            "name": "dvc_text",
+            "id": 156570
+          }]
+        }
+      },
+      "output": {
+        "className": "ft"
+      }
+    }
   }],
-  "fileName": "index"
+  "semantic": {
+    "result": {
+      "rule": {
+        "dvc_default": [{
+          "level": 100,
+          "result": "block",
+          "name": "dvc_default",
+          "id": 91520
+        }],
+        "dvc_module": [{
+          "level": 100,
+          "result": "mod",
+          "name": "dvc_module",
+          "id": 591605,
+          "choose": true
+        }],
+        "dvc_layout": [{
+          "level": 100,
+          "result": "box",
+          "name": "dvc_layout",
+          "id": 267262
+        }]
+      }
+    },
+    "output": {
+      "className": "mod"
+    }
+  },
+  "imgcook": {
+    "restore_id": "f9a12943-3e41-459a-8ef3-696cf9d3db7c"
+  }
 }

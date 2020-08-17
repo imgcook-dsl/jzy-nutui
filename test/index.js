@@ -37,6 +37,7 @@ const componentsMap = {"list":[{"name":"Div","title":"层标签","icon":"tuceng"
     componentsMap: componentsMap
   });
 
+  console.log(renderInfo.panelDisplay)
   if (renderInfo.noTemplate) {
     renderInfo.panelDisplay.forEach((file) => {
       fs.writeFileSync(path.join(__dirname, `../code/${file.panelName}`), file.panelValue);
